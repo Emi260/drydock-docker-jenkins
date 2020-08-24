@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh './trigger_build.sh'
+        sh './blob/master/trigger_build.sh'
       }
     }
 
